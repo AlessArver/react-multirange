@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-multirange/static/css/main.88833df4.css",
+    "main.js": "/react-multirange/static/js/main.d27c7c44.js",
+    "index.html": "/react-multirange/index.html",
+    "main.88833df4.css.map": "/react-multirange/static/css/main.88833df4.css.map",
+    "main.d27c7c44.js.map": "/react-multirange/static/js/main.d27c7c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88833df4.css",
+    "static/js/main.d27c7c44.js"
+  ]
+}
