@@ -1,5 +1,5 @@
 <h3>React MultiRange</h3>
-https://alessarver.github.io/cut-long-text/
+https://alessarver.github.io/react-multirange/
 
 ![Screenshot](./readme_1.png)
 
