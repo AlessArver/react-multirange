@@ -1,4 +1,4 @@
-<h3>React MultiRange:</h3>
+<h3>React MultiRange</h3>
 
 ![Screenshot](./readme_1.png)
 
