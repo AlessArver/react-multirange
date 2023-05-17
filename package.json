@@ -2,6 +2,14 @@
   "name": "react-multirange",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alessarver.github.io/react-multirange",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint ./src --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -18,10 +26,24 @@
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint": "eslint ./src --fix"
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
+    "prettier": "^2.8.8",
+    "prettier-airbnb-config": "^1.0.0",
+    "sass": "^1.62.1"
   },
   "eslintConfig": {
     "extends": [
@@ -40,23 +62,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/eslint-parser": "^7.21.3",
-    "@typescript-eslint/eslint-plugin": "^5.59.1",
-    "@typescript-eslint/parser": "^5.59.1",
-    "eslint": "^8.39.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-import-resolver-typescript": "^3.5.5",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.8",
-    "prettier-airbnb-config": "^1.0.0",
-    "sass": "^1.62.1"
   }
 }
