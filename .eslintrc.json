@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+		"eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:jsx-a11y/recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+    "plugin:import/typescript"
+  ],
+  "plugins": ["jsx-a11y", "import"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "sass": "never",
+        "scss": "never"
+      }
+    ]
+  },
+	"rules": {
+    "react/require-default-props": "off",
+		"react/jsx-uses-react": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/prop-types": "off",
+		"react/no-unknown-property": "off",
+		"react/jsx-no-target-blank": "off",
+		"react/no-unescaped-entities": "off",
+		"react/jsx-key": "warn",
+		"no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/no-array-index-key": "off"
+	}
+}
