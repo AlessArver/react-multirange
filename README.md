@@ -8,3 +8,8 @@ https://alessarver.github.io/react-multirange/
   <li>yarn or npm i</li>
   <li>yarn start or npm run start</li>
 </ul>
+
+<h3>Current tasks:</h3>
+<ul>
+  <li>Publish package like lib & edit readme</li>
+</ul>
