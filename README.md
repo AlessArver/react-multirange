@@ -13,3 +13,8 @@ https://alessarver.github.io/react-multirange/
 <ul>
   <li>Publish package like lib & edit readme</li>
 </ul>
+
+<h3>What I need to do?</h3>
+<ul>
+  <li>Improve code</li>
+</ul>
